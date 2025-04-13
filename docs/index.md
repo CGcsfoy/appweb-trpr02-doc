@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Markdown Cedric
-      link: /cedric-gourdes
+      link: /revue-cedric
     - theme: alt
-      text: Markdown Mathieu
-      link: /mathieu-cote
+      text: Revue Mathieu
+      link: /revue-mathieu
 
 features:
   - title: Feature A
