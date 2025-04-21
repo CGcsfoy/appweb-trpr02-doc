@@ -19,3 +19,35 @@
 * Le bouton n’a pas de style visible (pas de classe comme `btn` ou `btn-primary`), donc il pourrait avoir un style très simple.
 
 ---
+## Semaine 2
+---
+
+### ActionButton
+
+* Pourrait supporter d’autres props (ex: `disabled`, `aria-label`).
+
+
+### CharacterCard
+
+* Bonne séparation visuelle entre "Personnage" et "Ennemi".
+* Réduire la duplication entre les deux blocs en extrayant les lignes répétées.
+* Ajouter un état "inconnu" ou "en chargement" si certaines props ne sont pas encore prêtes.
+
+
+### Scores dans la base de données
+
+* Ajouter des messages d'erreur visibles côté utilisateur.
+
+
+
+### ScoresService
+
+* Créer un typage de réponse attendu (au lieu de juste `any` pour `data`).
+
+### savePlayerScore (dans GameView)
+* Afficher une confirmation ou un message si l’enregistrement échoue.
+
+### Séparation du code de GameView
+
+* Déplacer la logique métier dans un `useGame` ou `useCombat` composable.
+* Réduire la taille du composant principal (`GameView.vue`) en fesant plus de composants.
