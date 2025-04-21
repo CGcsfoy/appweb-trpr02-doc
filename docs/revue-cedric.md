@@ -26,6 +26,8 @@ C'est un bon départ! Je ne vois pas de problèmes dans la solution actuelle, il
 * Constante EXPERIENCE_LEVELS, celle-ci est passée de la GameView au composant EnemyGenerator, usage d'un Enum dans types.ts serait plus propre.
 * Tu pourrais utiliser des constantes pour le score et les points de vie par défaut du joueur et de l'ennemi.
 * Bon usage de lambdas pour les fonctions courtes émises par GameLogic.
+* Mettre des couleurs différentes pour les boutons de génération d'ennemi et de fuite du combat.
+* Le bouton de fuite et réparation doit réparer le vaisseau en même temps.
 
 ### EnemyGenerator
 
