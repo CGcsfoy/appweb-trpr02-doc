@@ -54,3 +54,31 @@ C'est un bon départ! Je ne vois pas de problèmes dans la solution actuelle, il
 
 * Bon système avec les v-if pour afficher le bon texte dans les logs.
 * Le message de log pour cannot-heal est bizarre... Voulais-tu dire "Vous ne pouvez pas réparer lorsque vous êtes en combat?"
+
+## Semaine 3
+
+### GameView
+
+* J'aime l'idée du ref pour le GameLogic!
+* Bon usage de constantes pour la propreté du code
+* Bonnes mentions de l'usage d'AppWebGPT. Elles sont claires et précises!
+
+### GameLogic
+
+* Import de Swal non-utilisé, n'oublie pas de l'enlever!
+
+### EnemyGenerator
+
+* Bon usage de constantes, elles sont bien nommées.
+
+### GameLog
+
+* Attention, l'option 'cannot-heal' n'est plus utilisée, tu pourrais l'enlever.
+
+### CreateCharacterForm + Backend
+
+* Bonne utilisation du backend pour afficher les options de noms de vaisseaux pré-existants!
+
+### Balancement du jeu
+
+* Le jeu est relativement simple à battre à des basses difficultés, mais la difficulté plus haute est bien mise à l'échelle.
