@@ -38,8 +38,6 @@
 
 * Ajouter des messages d'erreur visibles côté utilisateur.
 
-
-
 ### ScoresService
 
 * Créer un typage de réponse attendu (au lieu de juste `any` pour `data`).
@@ -51,3 +49,16 @@
 
 * Déplacer la logique métier dans un `useGame` ou `useCombat` composable.
 * Réduire la taille du composant principal (`GameView.vue`) en fesant plus de composants.
+
+---
+## Semaine 3
+---
+
+### GameLogic
+* Changement de l’ordre des vérifications `if (newPlayer.life <= 0)` et `if (newEnemy.life <= 0)` dans la fonction `attack()`.
+  * Avant : l’ennemi était vérifié avant le joueur.
+  * Maintenant : le joueur est vérifié avant. Cela permet de détecter une mort du joueur même si l’ennemi meurt aussi dans le même round.
+* Changement de la couleur du bouton de génération d'ennemies pour rester conformes au normes
+
+### Global
+* Refactoring / Formatage de plusieurs classes pour améliorer la qualité du code dans celles-ci
