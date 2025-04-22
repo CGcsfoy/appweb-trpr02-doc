@@ -9,20 +9,11 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "Accueil", link: "/" },
+      { text: "Markdown Cedric", link: "/revue-cedric" },
+      { text: "Revue Mathieu", link: "/revue-mathieu" },
     ],
-
-    sidebar: [
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-    ],
-
+    sidebar: [],
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
