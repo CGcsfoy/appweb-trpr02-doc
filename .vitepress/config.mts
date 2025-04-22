@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/appweb-trp02-doc/",
+  base: "/appweb-trpr02-doc/",
   title: "Travail Pratique 2 - Doc",
   description:
     "Documentation du Travail Pratique 2 par Mathieu Côté & Cédric Gourdes",
